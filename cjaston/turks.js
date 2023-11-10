@@ -4,4 +4,7 @@ for (let i = 0; i < caption.length; i++) {
   caption[i].addEventListener('mouseover', function() {
     caption[i].style.color = 'red';
   })
+  caption[i].addEventListener('mouseout', function() {
+    caption[i].style.color = 'black';
+  })
 };
